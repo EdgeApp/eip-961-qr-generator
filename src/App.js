@@ -12,6 +12,9 @@ function App() {
       </header>
       <div className='qrForm'>
         <h3>Add-Token QR Encoder</h3>
+        <br />
+        <p>This tool is for the generation of QR-codes implementing <a style={{ color: 'white', fontWeight: 'bold' }} href="https://github.com/ethereum/EIPs/pull/961">EIP 961</a>:</p>
+        <br />
         <QRForm />
       </div>
     </div>
