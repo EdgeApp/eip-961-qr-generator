@@ -3,31 +3,46 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  min-height: 16vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.qrForm {
+  padding-top: 30px;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.qr-code-form label {
+  float: left;
+}
+
+.qr-code-form .form-group {
+  min-height: 42px;
+}
+
+.qr-code-form input {
+  float: right;
+}
+
+.qrForm canvas {
+  margin-top: 30px;
+  height: 256px !important;
+  width: 256px !important;
+}
+
+.edge-logo {
+  margin-top: 40px;
+}
+
+.App-link {
+  color: #61dafb;
 }
